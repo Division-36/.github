@@ -13,6 +13,8 @@ No cloud. No GPU. No dependencies. No compromise.
 
 ---
 
+Division-36: Named after 1936 — the foundational year of mathematical computing and Turing's absolute logic.
+
 ## What we build
 
 Division-36 builds security software for the layer nobody else covers: the firmware and embedded Linux layer of IoT and OT devices, where traditional antivirus is too large to run and cloud solutions require connectivity that doesn't exist.

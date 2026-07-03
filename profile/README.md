@@ -34,7 +34,7 @@ The gap is structural: traditional AV needs 50–500 MB RAM. Embedded Linux devi
 Binary size       37 KB   (27 KB binary + 10 KB ring buffer)
 Median latency    34 ns   σ ≤ 14 ns across 9 independent runs
 Throughput        29.4 M inferences/sec  ·  single CPU core, no GPU
-Accuracy          96.28%  on ADFA-LD (unseen IoT malware, 2016–2026)
+Accuracy          96.28%  (unseen IoT malware, 2016–2026)
 Precision         97.71%
 Recall            97.87%
 Generalization    51× beyond training trace length — mathematical property, not tuning

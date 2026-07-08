@@ -158,14 +158,6 @@ Source code is proprietary. Public repositories contain datasets, benchmark resu
 
 ---
 
-## Recognition
-
-- **IEEE AIITA 2026** — accepted paper (PTRR Framework)
-- **Nature Portfolio / Scientific Reports** — paper under review (DVF Framework)
-- **HackerOne VDP** — Top 90 globally, #9 Egypt (Feb–Jun 2026)
-
----
-
 ## Contact
 
 **Ziad Salah** — Founder & Lead Engineer  

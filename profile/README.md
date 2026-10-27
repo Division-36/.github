@@ -51,17 +51,34 @@ Ground truth comes from an independent AST scan, never from corpus labels.
 
 → [Division-36/Syrth](https://github.com/Division-36/Syrth) · MIT · [release v1-prod](https://github.com/Division-36/Syrth/releases/tag/v1-prod)
 
+## Systems tooling
+
+**Z-Jail** — multi-layer Linux sandbox for native code execution. Seven ordered
+isolation layers: rlimits, namespaces, `pivot_root`, `NO_NEW_PRIVS`, capability drop,
+seccomp-BPF whitelist, BLAKE2b audit trail. ~81 KiB static PIE, C99, MIT.
+
+**Z-Privesc** — Linux privilege-escalation auditor. 17 probes, deterministic verdicts,
+2.65 s full scan. Static C binary, zero dependencies, MIT.
+
+**mcOS** — deterministic safety-critical RTOS with a bounded-time AI runtime. Zero-heap
+allocation, compositional WCET analysis, fault containment regions, models
+hot-swappable under 5 µs. Targets DO-178C, IEC 61508 and ISO 26262 on Cortex-M via the
+Zephyr HAL.
+
 ## Repository index
 
 | Repository | Contents |
 |---|---|
 | [Syrth](https://github.com/Division-36/Syrth) | Source, tests, docs — MIT, release `v1-prod` |
+| [Z-Jail](https://github.com/Division-36/Z-Jail) | Linux sandbox — MIT, release `v1.1.0` |
+| [Z-Privesc](https://github.com/Division-36/Z-Privesc) | Privilege-escalation auditor — MIT, release `v1.0.0` |
+| [mcOS](https://github.com/Division-36/mcOS) | Safety-critical RTOS — release `v1.0.0` |
 | [Planck-99_PublicBenchmarks](https://github.com/Division-36/Planck-99_PublicBenchmarks) | Datasets, benchmark scripts, technical paper |
 | [AxiomWAF-Brain_PublicBenchmarks](https://github.com/Division-36/AxiomWAF-Brain_PublicBenchmarks) | Confusion matrices, per-attack recall, 313K results |
 | [AxiomWAF_PublicBenckmark](https://github.com/Division-36/AxiomWAF_PublicBenckmark) | Initial WAF benchmark data |
 
-SYRTH is MIT-licensed and public. The other products ship datasets, results and
-reproducible scripts only; their source is proprietary.
+Syrth, Z-Jail, Z-Privesc and mcOS are public. Planck-99 and Axiom-WAF publish
+datasets, results and reproducible scripts only; their source is proprietary.
 
 ## Contact
 

@@ -49,16 +49,19 @@ marks a finding; it never deletes one.
 
 Ground truth comes from an independent AST scan, never from corpus labels.
 
+→ [Division-36/Syrth](https://github.com/Division-36/Syrth) · MIT · [release v1-prod](https://github.com/Division-36/Syrth/releases/tag/v1-prod)
+
 ## Repository index
 
 | Repository | Contents |
 |---|---|
+| [Syrth](https://github.com/Division-36/Syrth) | Source, tests, docs — MIT, release `v1-prod` |
 | [Planck-99_PublicBenchmarks](https://github.com/Division-36/Planck-99_PublicBenchmarks) | Datasets, benchmark scripts, technical paper |
 | [AxiomWAF-Brain_PublicBenchmarks](https://github.com/Division-36/AxiomWAF-Brain_PublicBenchmarks) | Confusion matrices, per-attack recall, 313K results |
 | [AxiomWAF_PublicBenckmark](https://github.com/Division-36/AxiomWAF_PublicBenckmark) | Initial WAF benchmark data |
 
-Source code is proprietary. Public repositories carry datasets, results and
-reproducible scripts only.
+SYRTH is MIT-licensed and public. The other products ship datasets, results and
+reproducible scripts only; their source is proprietary.
 
 ## Contact
 
